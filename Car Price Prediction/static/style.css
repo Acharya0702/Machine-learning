@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200);
+    text-align: center;
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    /* text-decoration: underline; */
+    color: blue;
+    border: 3px solid green;
+    border-radius: 20px;
+}
+form{
+    background-color:rgba(0,0,0, 0.5);
+    color: blue;
+    margin: 2% 25% 5% 25%;
+    padding:2%;
+    border: 2px dotted greenyellow;
+    border-radius: 20px;
+}
+input{
+    background-color: rgba(0,0,0, 0.5);
+    color: white;
+}
+select{
+    width: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    color: white;
+}
+.radio{
+    width: 18%;
+}
+.textbox{
+    width: 100%;
+}
+.rbtn{
+    background-color: blue;
+    padding: 10px;
+    margin: 0%;
+}
+#btn{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 0%;
+}
+#result{
+    color: aliceblue;
+    background-color: rgba(0,0,0, 0.5);
+    padding: 20px;
+    margin: 0% 20% 0% 20%;
+}
